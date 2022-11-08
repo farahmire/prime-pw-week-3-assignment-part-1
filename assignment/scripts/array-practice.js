@@ -38,8 +38,9 @@ console.log('Last animal is', animalArray[3])
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-animalArray[ animalArray.length];
-console.log(animalArray.length + 1);
+animalArray[animalArray.length - 1];
+
+/// this one i was able to put it into the console directly but not through vs code
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
@@ -100,6 +101,13 @@ console.log(foodArray);
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+
+// came up with two different ways to write it. I believe the first one is much cleaner and shows that its a string
+
+ let string = foodArray.join( ' and ' );
+console.log(string);
+
+console.log( foodArray.join(' and '));
 
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
