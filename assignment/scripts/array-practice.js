@@ -8,12 +8,12 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
-
+let foodArray = ['lasagna', 'pizza', 'anjero'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
 
-
+console.log('Favorite foods are: ', foodArray);
 
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
@@ -49,7 +49,8 @@ animalArray.push('penguin');
 console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
-
+foodArray.push('burritos');
+console.log('Added food to end, ', foodArray);
 
 
 // Example: Remove the last animal by using Array.pop
