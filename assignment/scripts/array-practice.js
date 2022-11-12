@@ -118,3 +118,5 @@ console.log( foodArray.join(' and '));
 
 newArray = foodArray.concat(animalArray);
 console.log(newArray);
+
+// end code
